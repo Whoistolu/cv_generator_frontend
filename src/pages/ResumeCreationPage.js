@@ -8,4 +8,4 @@ const ResumeCreationPage = () => {
   );
 };
 
-export default ResumeCreationPage ;
+export default ResumeCreationPage;
