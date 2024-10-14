@@ -3,9 +3,9 @@ import React from 'react';
 const Footer = () => {
  
   return (
-    <div className="template-list">
+    <footer className="w-full py-4 text-white bg-gray-800">
       
-    </div>
+    </footer>
   );
 };
 
