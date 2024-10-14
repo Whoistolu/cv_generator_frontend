@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="flex space-x-4">
           <div href="#" className="hover:text-blue-400">Privacy Policy</div>
           <div href="#" className="hover:text-blue-400">Terms of Service</div>
-          
+          <div href="#" className="hover:text-blue-400">Contact Us</div>
         </div>
       </div>
     </footer>
