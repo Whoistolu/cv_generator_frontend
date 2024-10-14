@@ -8,6 +8,10 @@ const Footer = () => {
         <div className="text-sm">
           © {new Date().getFullYear()} CV Generator. All rights reserved.
         </div>
+
+        <div className="flex space-x-4">
+          <div href="#" className="hover:text-blue-400">Privacy Policy</div>
+        </div>
       </div>
     </footer>
   );
