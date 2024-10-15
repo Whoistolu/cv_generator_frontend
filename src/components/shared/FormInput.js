@@ -13,7 +13,7 @@ const FormInput = ({ label, type, name, value, onChange, placeholder }) => {
         value={value}
         onChange={onChange}
         placeholder={placeholder}
-        className="block mt-1 border border-gray-300 rounded-md focus:outline-none focus:ring-blue-500 sm:text-sm"
+        className="block mt-1 border border-gray-300 rounded-md focus:outline-none focus:ring-blue-500 "
       />
     </div>
   );
