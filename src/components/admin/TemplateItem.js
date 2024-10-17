@@ -1,13 +1,11 @@
 import React from 'react';
 
-const TemplateItem  = ({name}) => {
+const TemplateItem = ({ name, description, imageUrl }) => {
   return (
-    <div className="p-4 bg-white rounded-md shadow-md">
-      <h3 className="text-xl font-semibold">{name}</h3>
-      <div className="flex justify-between mt-4">
-        <button className="text-blue-500 hover:underline">Edit</button>
-        <button className="text-red-500 hover:underline">Delete</button>
-      </div>
+    <div className="p-4 border cv-template-item">
+      <img src={imageUrl} alt={name} className="w-full mb-2 template-image" />
+      <h3 className="font-bold">{name}</h3>
+      <p className="text-gray-600">{description}</p>
     </div>
   );
 };

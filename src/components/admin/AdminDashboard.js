@@ -5,6 +5,7 @@ import FormInput from '../shared/FormInput';
 import Sidebar from './SideBar';
 
 const AdminDashboard = () => {
+ 
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
