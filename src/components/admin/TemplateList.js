@@ -4,8 +4,11 @@ import TemplateItem from './TemplateItem';
 const TemplateList = () => {
 
   const templates = [
-    { id: 1, name: 'Simple CV', description: 'A clean and simple CV template.' },
-    { id: 2, name: 'Professional CV', description: 'A professional-looking CV template.', imageUrl: '/images/professional_cv.png' }
+    { id: 1, name: 'Simple CV', description: 'A clean and simple CV template.', imageUrl: '' },
+    { id: 2, name: 'Professional CV', description: 'A professional-looking CV template.', imageUrl: '' },
+    { id: 2, name: 'Intermediate CV', description: 'A professional-looking CV template.', imageUrl: '' },
+    { id: 2, name: 'Senior Software Developer CV', description: 'A professional-looking CV template.', imageUrl: '' },
+    { id: 2, name: 'Colourful CV', description: 'A professional-looking CV template.', imageUrl: '' }
   ]
 
   return (
