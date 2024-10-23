@@ -1,4 +1,13 @@
+import { useState } from "react";
+
 const Signup = () => {
+
+    const [formdata, setFormdata] = useState({
+        email: '',
+        password: '',
+        password_confirmation: ''
+
+    });
     return (
         <div>
             <form>
