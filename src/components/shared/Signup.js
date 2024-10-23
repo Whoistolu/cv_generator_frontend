@@ -1,4 +1,5 @@
 import { useState } from "react";
+import axios from 'axios';
 
 const Signup = () => {
 
@@ -14,9 +15,20 @@ const Signup = () => {
         })
     }
 
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+
+        try {
+            const response = await axios.post('/users', formdata)
+        } catch (error) {
+            console.error('signup error', error)
+        } 
+
+    }
+
     return (
         <div>
-            <form>
+            <form onSubmit={handleSubmit}>
                 <input
                     type="email"
                     name="email"
