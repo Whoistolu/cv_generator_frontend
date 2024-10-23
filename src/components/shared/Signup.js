@@ -8,9 +8,12 @@ const Signup = () => {
         password_confirmation: ''
 
     });
-    const handleChange = () => {
-        
+    const handleChange = (e) => {
+        setFormdata({
+            ...formdata, [e.target.name]: e.target.value
+        })
     }
+
     return (
         <div>
             <form>
@@ -18,18 +21,21 @@ const Signup = () => {
                     type="email"
                     name="email"
                     placeholder="Email"
+                    onChange={handleChange}
                 />
 
                 <input
                     type="password"
                     name="password"
                     placeholder="Password"
+                    onChange={handleChange}
                 />
 
                 <input
                     type="pasword"
                     name="password_confirmation"
                     placeholder="Confirm Password"
+                    onChange={handleChange}
                 />
             </form>
         </div>
