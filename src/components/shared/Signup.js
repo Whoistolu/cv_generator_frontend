@@ -49,6 +49,8 @@ const Signup = () => {
                     placeholder="Confirm Password"
                     onChange={handleChange}
                 />
+
+                <button type="submit">Sign Up</button>
             </form>
         </div>
     )
