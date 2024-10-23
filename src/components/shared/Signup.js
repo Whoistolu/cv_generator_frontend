@@ -8,6 +8,9 @@ const Signup = () => {
         password_confirmation: ''
 
     });
+    const handleChange = () => {
+        
+    }
     return (
         <div>
             <form>
