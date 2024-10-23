@@ -20,6 +20,7 @@ const Signup = () => {
 
         try {
             const response = await axios.post('/users', formdata)
+            console.log(response.data);
         } catch (error) {
             console.error('signup error', error)
         } 
