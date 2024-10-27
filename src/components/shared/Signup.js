@@ -23,36 +23,46 @@ const Signup = () => {
             console.log(response.data);
         } catch (error) {
             console.error('signup error', error)
-        } 
+        }
 
     }
 
     return (
         <div>
-            <form onSubmit={handleSubmit}>
-                <input
-                    type="email"
-                    name="email"
-                    placeholder="Email"
-                    onChange={handleChange}
-                />
+            <div className="h-full bg-blue-600">
+                <div className="bg-red-400">
+                    <div>  
+                        <h1>Get Started</h1>
+                        <form onSubmit={handleSubmit}>
+                            <input
+                                type="email"
+                                name="email"
+                                placeholder="Email"
+                                onChange={handleChange}
+                            />
 
-                <input
-                    type="password"
-                    name="password"
-                    placeholder="Password"
-                    onChange={handleChange}
-                />
+                            <input
+                                type="password"
+                                name="password"
+                                placeholder="Password"
+                                onChange={handleChange}
+                            />
 
-                <input
-                    type="pasword"
-                    name="password_confirmation"
-                    placeholder="Confirm Password"
-                    onChange={handleChange}
-                />
+                            <input
+                                type="pasword"
+                                name="password_confirmation"
+                                placeholder="Confirm Password"
+                                onChange={handleChange}
+                            />
 
-                <button type="submit">Sign Up</button>
-            </form>
+                            <button type="submit">Sign Up</button>
+                        </form>
+                    </div>
+                    <div>
+                        <img src="/public/images/resume-signup-page.png" alt="remume-image" />
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

@@ -1,9 +1,11 @@
 import AdminDashboard from './components/admin/AdminDashboard';
+import Signup from './components/shared/Signup';
+
 
 function App() {
   return (
     <div>
-     <AdminDashboard />
+      <Signup />
     </div>
   );
 }
