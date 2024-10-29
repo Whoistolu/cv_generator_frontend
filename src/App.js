@@ -1,11 +1,10 @@
-import AdminDashboard from './components/admin/AdminDashboard';
-import Signup from './components/shared/Signup';
+import  Login from './components/shared/Login';
 
 
 function App() {
   return (
     <div>
-      <Signup />
+      <Login />
     </div>
   );
 }
