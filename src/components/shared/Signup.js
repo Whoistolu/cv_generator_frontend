@@ -28,9 +28,9 @@ const Signup = () => {
     }
 
     return (
-        <div className="flex items-center justify-center bg-white">
-            <div className="flex items-center justify-center w-4/5 p-10 shadow-lg bg-gradient-to-r from-blue-800 to-blue-600">
-                <div className="flex w-3/4 bg-white rounded-lg">
+        <div className="flex items-center justify-center min-h-screen bg-white">
+            <div className="flex items-center justify-center w-4/5 p-10 shadow-lg bg-gradient-to-r from-purple-900 to-blue-900 tol-div">
+                <div className="flex w-3/4 bg-white rounded-3xl">
 
                     <div className="w-1/2 p-10">
                         <h1 className="mb-8 text-3xl font-bold text-center text-blue-900">Get Started.</h1>
@@ -40,9 +40,9 @@ const Signup = () => {
                                 <input
                                     type="text"
                                     name="name"
-                                    placeholder="Mark Norman"
+                                    placeholder="Tolu Ajise"
                                     onChange={handleChange}
-                                    className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none"
+                                   className="w-full px-4 py-2 border-b-2 border-blue-800"
                                 />
                             </div>
                             <div>
@@ -50,9 +50,9 @@ const Signup = () => {
                                 <input
                                     type="email"
                                     name="email"
-                                    placeholder="seamus.schmidt@gmail.com"
+                                    placeholder="ajise.toluwaset@gmail.com"
                                     onChange={handleChange}
-                                    className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none"
+                                    className="w-full px-4 py-2 border-b-2 border-blue-800"
                                 />
                             </div>
                             
@@ -63,7 +63,7 @@ const Signup = () => {
                                     name="password"
                                     placeholder="Password"
                                     onChange={handleChange}
-                                    className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none"
+                                    className="w-full px-4 py-2 border-b-2 border-blue-800"
                                 />
                             </div>
                             <div>
@@ -73,15 +73,17 @@ const Signup = () => {
                                     name="password_confirmation"
                                     placeholder="Confirm Password"
                                     onChange={handleChange}
-                                    className="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none"
+                                    className="w-full px-4 py-2 border-b-2 border-blue-800"
                                 />
                             </div>
+                            <div className="text-center">
                             <button
                                 type="submit"
                                 className="w-32 py-2 mt-4 text-white bg-blue-600 rounded-lg shadow hover:bg-blue-900"
                             >
                                 Sign Up
                             </button>
+                            </div>
                         </form>
                         <div className="flex items-center justify-center mt-6 space-x-4">
                             <span>Or sign up with</span>
