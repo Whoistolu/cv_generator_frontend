@@ -28,8 +28,8 @@ const Signup = () => {
     }
 
     return (
-        <div className="flex items-center justify-center min-h-screen bg-white">
-            <div className="flex items-center justify-center w-4/5 p-10 shadow-lg bg-gradient-to-r from-blue-800 to-purple-800 tol-div">
+        <div className="flex items-center justify-center min-h-screen from-purple-400 to-blue-400 bg-gradient-to-r">
+            <div className="flex items-center justify-center w-4/5 p-10 shadow-lg bg-gradient-to-r from-blue-800 to-purple-800">
                 <div className="flex w-3/4 bg-white rounded-3xl">
 
                     <div className="w-1/2 p-10">
