@@ -29,7 +29,7 @@ const Signup = () => {
 
     return (
         <div className="flex items-center justify-center min-h-screen bg-white">
-            <div className="flex items-center justify-center w-4/5 p-10 shadow-lg bg-gradient-to-r from-purple-900 to-blue-900 tol-div">
+            <div className="flex items-center justify-center w-4/5 p-10 shadow-lg bg-gradient-to-r from-blue-800 to-purple-800 tol-div">
                 <div className="flex w-3/4 bg-white rounded-3xl">
 
                     <div className="w-1/2 p-10">
@@ -79,21 +79,14 @@ const Signup = () => {
                             <div className="text-center">
                             <button
                                 type="submit"
-                                className="w-32 py-2 mt-4 text-white bg-blue-600 rounded-lg shadow hover:bg-blue-900"
+                                className="w-32 py-4 mt-4 text-white bg-blue-600 rounded-lg shadow hover:bg-blue-900"
                             >
                                 Sign Up
                             </button>
                             </div>
                         </form>
-                        <div className="flex items-center justify-center mt-6 space-x-4">
-                            <span>Or sign up with</span>
-                            <div className="flex space-x-4">
-                                <button className="text-blue-500">G</button>
-                                <button className="text-blue-500">F</button>
-                                <button className="text-blue-500">T</button>
-                            </div>
-                        </div>
-                        <div className="mt-4 text-center">
+                        
+                        <div className="mt-8 text-center">
                             <span>Already have an account? <a href="#" className="text-blue-500">Sign in</a></span>
                         </div>
                     </div>
