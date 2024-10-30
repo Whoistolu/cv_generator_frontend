@@ -29,25 +29,31 @@ const Login = () => {
     return (
         <div className="flex items-center justify-center min-h-screen bg-white">
             <div className="flex items-center justify-center w-4/5 p-10 from-purple-400 to-blue-400 bg-gradient-to-r">
-                <div className="w-3/4 p-10 bg-red-300 rounded-3xl">
-                   <div className="w-1/2">
-                   <form className="space-y-6" onSubmit={handleSubmit} >
-                        <input
-                            type='email'
-                            name='email'
-                            placeholder="email"
-                            onChange={handleChange}
-                        />
 
-                        <input
-                            type='password'
-                            name='password'
-                            placeholder="password"
-                            onChange={handleChange}
-                        />
-                    </form>
-                   </div>
+                <div className="w-3/4 p-10 bg-red-300 rounded-3xl">
+                    <div className="w-1/2 bg-center bg-cover rounded-r-lg" style={{ backgroundImage: "url('/images/resume-signup-page.png')" }}>
+                    </div>
+                    <div className="relative w-1/2 p-10">
+                        <form className="space-y-6" onSubmit={handleSubmit} >
+                            <input
+                                type='email'
+                                name='email'
+                                placeholder="email"
+                                onChange={handleChange}
+                                className="w-full px-4 py-2 border-b-2 border-blue-800"
+                            />
+
+                            <input
+                                type='password'
+                                name='password'
+                                placeholder="password"
+                                onChange={handleChange}
+                            />
+                        </form>
+                    </div>
+
                 </div>
+
             </div>
         </div>
     )
